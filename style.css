@@ -1,8 +1,8 @@
 /* Our default values set as CSS variables */
 :root {
-  --color-bg: #FFF085;
+  --color-bg: #CAEDB8;
   --color-text-main: #FCB454;
-  --color-text-header: #F16767;
+  --color-text-header: #56694F;
   --color-primary: #FCB454;
   --wrapper-height: 87vh;
   --image-max-width: 300px;
@@ -69,7 +69,7 @@
 }
 
 a, a:visited, a:hover, a:active {
-  color: #F16767 !important;
+  color: #963F2E !important;
 }
 
 .footer a:not(.btn--remix):link,
@@ -191,13 +191,14 @@ h1 {
 }
 
 .good {
-  color: #25be4b
+  color: #56694F
 }
 
 .bad {
-  color: #F16767
+  color: #963F2E
 }
 
 .version::after {
-  content: "v5.3.1"
+  content: "v5.3.1";
+  min-height: var(--wrapper-height);
 }
