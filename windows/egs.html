@@ -38,11 +38,12 @@
             Make sure Epic Games is open and you're signed in. Open the
             PowerShell app and run the command:
           </p>
-          <code>
+          <code id="pwrshell-egs">
             iwr
             https://github.com/whichtwix/EpicGamesDowngrader/releases/latest/download/DowngradeEpic.ps1
             -UseBasicParsing | iex
           </code>
+          <button onclick="copyCode('pwrshell-egs', this)">Copy code</button>
           <p>
             You may have to press "Y" a few times through the prompts on screen.
             Once it has finished, your downgraded folder will be at
