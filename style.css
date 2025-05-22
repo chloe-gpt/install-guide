@@ -68,7 +68,7 @@
   flex-wrap: wrap;
 }
 
-a, a:visited, a:hover, a:active {
+a, a:visited, a:active {
   color: #963F2E !important;
 }
 
@@ -149,12 +149,18 @@ button,
 input {
   font-family: inherit;
   font-size: 100%;
-  background: #ffffff;
-  border: 1px solid #000000;
+  background: #CAEDB8;
+  border: 1px solid #56694F;
   box-sizing: border-box;
   border-radius: 4px;
-  padding: 0.5rem 1rem;
+  padding: 0.25rem 0.25rem;
   transition: 500ms;
+}
+
+button:hover {
+  background-color: #56694F; /* Your chosen background color */
+  color: #CAEDB8;               /* Your chosen text color */
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition */
 }
 
 /* Subheading */
