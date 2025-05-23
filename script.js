@@ -13,3 +13,5 @@ const versionNumber = "v5.3.1";
 function insertVersion(elementId) {
   document.getElementById(elementId).textContent = versionNumber;
 }
+
+insertVersion('version');
