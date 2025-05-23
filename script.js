@@ -11,5 +11,5 @@ function copyCode(codeBlockId, button) {
 
 const versionNumber = "v5.3.1";
 function insertVersion(elementId) {
-  document.getElementById(elementId).textContent = versioNumber;
+  document.getElementById(elementId).textContent = versionNumber;
 }
