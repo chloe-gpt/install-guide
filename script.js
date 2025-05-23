@@ -8,3 +8,8 @@ function copyCode(codeBlockId, button) {
     }, 1500); // Revert after 1.5 seconds
   });
 }
+
+const version = "v5.3.1";
+function insertVersion(elementId) {
+  document.getElementById(elementId).textContent = version;
+}
