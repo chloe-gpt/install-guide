@@ -9,7 +9,7 @@ function copyCode(codeBlockId, button) {
   });
 }
 
-const version = "v5.3.1";
+const versionNumber = "v5.3.1";
 function insertVersion(elementId) {
-  document.getElementById(elementId).textContent = version;
+  document.getElementById(elementId).textContent = versioNumber;
 }
