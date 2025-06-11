@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="icon"
+      href="/favicon.ico"
+    />
+
+    <title>6/10/25: Update 16.1.0 and Downgrades</title>
+
+    <link rel="stylesheet" href="/style.css" />
+
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="content" role="main">
+        <h1 class="title">6/10/25: Update 16.1.0 and Downgrades</h1>
+        <div class="instructions">
+        <p>Due to update 16.1.0, the usual Steam downgrade method does not work. Follow the steps below before continuing with your OS- and platform-specific guide. Epic Games users do NOT need to follow these steps and can do the normal downgrade method.</p>
+        <h2>Windows</h2>
+        <p>Press Windows+R and enter the following command.</p>
+        <code id="steam-console-windows">
+            steam://open/console
+        </code>
+        <button onclick="copyCode('steam-console-windows', this)">Copy code</button>
+        <p>In the console that appears, enter the following command.</p>
+        <code id="ultra-downgrade-16.0.2">
+            download_depot 945360 945361 8040785713895232554 
+        </code>
+        <button onclick="copyCode('ultra-downgrade-16.0.2', this)">Copy code</button>
+        <p>Your downgraded folder will be at <code>C:\Program Files (x86)\Steam\steamapps\content\app_945360\depot_945361</code>.</p>
+        <h2>Linux</h2>
+        <p>Open your terminal emulator of choice and enter the following command.</p>
+        <code id="steam-console-linux">
+            steam steam://open/console
+        </code>
+        <button onclick="copyCode('steam-console-linux', this)">Copy code</button>
+        <p>In the console that appears, enter the following command.</p>
+        <code id="ultra-downgrade-16.0.2">
+            download_depot 945360 945361 8040785713895232554 
+        </code>
+        <button onclick="copyCode('ultra-downgrade-16.0.2', this)">Copy code</button>
+        <p>Your downgraded folder will be at <code>/home/[USERNAME]/.local/share/Steam/ubuntu12_32/steamapps/content/app_945360/depot_945361</code>.</p>
+        </div>
+        <h2>Finishing Up</h2>
+        <p> You can move the downgraded folder somewhere more convenient if you wish, and then proceed to install using that folder.</p>
+        <p>
+            If your game crashes, doesn't load mods, or another issue occurs,
+            join our <a href="https://discord.gg/3JmTd6QDqe">Discord</a> and
+            make a ticket in the "#tour-support" channel for assistance.
+          </p>
+      </div>
+    </div>
+  </body>
+  <footer class="center">
+    <p>
+      [<a href="/">Return Home</a>] -
+      [<a href="https://discord.gg/3JmTd6QDqe">Discord</a>] - [<a href="https://github.com/chloe-gpt/tour-install-guide">Website Github</a>] - [<a
+        href="https://github.com/eDonnes124/Town-Of-Us-R"
+        >ToUR Github</a
+      >] - [<a href="/credits.html" ]
+        >Credits</a
+      >]
+    </p>
+  </footer>
+</html>
