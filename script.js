@@ -14,4 +14,16 @@ function insertVersion(elementId) {
   document.getElementById(elementId).textContent = versionNumber;
 }
 
+const AU_versionNumber = "16.0.2";
+function insertAUVersion(elementId) {
+  document.getElementById(elementId).textContent = AU_versionNumber;
+}
+
+const channel = "public-beta";
+function insertChannel(elementId) {
+  document.getElementById(elementId).textContent = channel;
+}
+
 insertVersion('version');
+insertAUVersion('au-version');
+insertChannel('channel');
