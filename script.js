@@ -24,8 +24,6 @@ function insertChannel(elementId) {
   document.getElementById(elementId).textContent = update_channel;
 }
 
-document.addEventListener('DOMContentLoaded', function() {
-  insertVersion('version');
-  insertAUVersion('au-version');
-  insertChannel('channel');
-});
+insertVersion('version');
+insertAUVersion('au_version');
+insertChannel('update_channel');
