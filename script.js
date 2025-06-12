@@ -9,14 +9,14 @@ function copyCode(codeBlockId, button) {
   });
 }
 
-const versionNumber = "v5.3.1";
+const version_number = "v5.3.1";
 function insertVersion(elementId) {
-  document.getElementById(elementId).textContent = versionNumber;
+  document.getElementById(elementId).textContent = version_number;
 }
 
-const AU_versionNumber = "16.0.2";
+const au_version = "16.0.2";
 function insertAUVersion(elementId) {
-  document.getElementById(elementId).textContent = AU_versionNumber;
+  document.getElementById(elementId).textContent = au_version;
 }
 
 const update_channel = "public-beta";
@@ -24,6 +24,6 @@ function insertChannel(elementId) {
   document.getElementById(elementId).textContent = update_channel;
 }
 
-insertVersion('version');
+insertVersion('version_number');
 insertAUVersion('au_version');
 insertChannel('update_channel');
