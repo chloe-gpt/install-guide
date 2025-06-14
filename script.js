@@ -19,11 +19,11 @@ function insertAUVersion(elementId) {
   document.getElementById(elementId).textContent = au_version;
 }
 
-const update_channel = "public-beta";
+/*const update_channel = "public-beta";
 function insertChannel(elementId) {
   document.getElementById(elementId).textContent = update_channel;
-}
+}*/
 
 insertVersion('version_number');
 insertAUVersion('au_version');
-insertChannel('update_channel');
+/*insertChannel('update_channel');*/
